@@ -1,0 +1,22 @@
+{
+  "name": "llm-comparison-js",
+  "version": "1.0.0",
+  "description": "Simple LLM provider comparison tool for practice",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node run.js",
+    "test": "node run.js"
+  },
+  "dependencies": {
+    "@langchain/anthropic": "^1.5.4",
+    "@langchain/core": "^1.2.5",
+    "@langchain/google-genai": "^2.2.0",
+    "@langchain/groq": "^1.3.1",
+    "@langchain/mistralai": "^1.2.0",
+    "@langchain/openai": "^1.5.6",
+    "cli-table3": "^0.6.3",
+    "dotenv": "^16.4.5",
+    "langchain": "^1.5.5"
+  }
+}
