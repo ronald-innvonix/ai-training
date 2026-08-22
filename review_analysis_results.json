@@ -1,0 +1,82 @@
+[
+  {
+    "sentiment": "positive",
+    "key_issues": [
+      "battery life",
+      "general performance"
+    ],
+    "summary": "The review is positive with main issues about battery life."
+  },
+  {
+    "sentiment": "negative",
+    "key_issues": [
+      "camera quality",
+      "general performance"
+    ],
+    "summary": "The review is negative with main issues about camera quality."
+  },
+  {
+    "sentiment": "neutral",
+    "key_issues": [
+      "general performance",
+      "general performance"
+    ],
+    "summary": "The review is neutral with main issues about general performance."
+  },
+  {
+    "sentiment": "positive",
+    "key_issues": [
+      "thermal management",
+      "general performance"
+    ],
+    "summary": "The review is positive with main issues about thermal management."
+  },
+  {
+    "sentiment": "negative",
+    "key_issues": [
+      "customer service",
+      "general performance"
+    ],
+    "summary": "The review is negative with main issues about customer service."
+  },
+  {
+    "sentiment": "positive",
+    "key_issues": [
+      "storage options",
+      "general performance"
+    ],
+    "summary": "The review is positive with main issues about storage options."
+  },
+  {
+    "sentiment": "positive",
+    "key_issues": [
+      "general performance",
+      "general performance"
+    ],
+    "summary": "The review is positive with main issues about general performance."
+  },
+  {
+    "sentiment": "negative",
+    "key_issues": [
+      "return/refund process",
+      "general performance"
+    ],
+    "summary": "The review is negative with main issues about return/refund process."
+  },
+  {
+    "sentiment": "neutral",
+    "key_issues": [
+      "customization options",
+      "interface customization"
+    ],
+    "summary": "The review is neutral with main issues about customization options."
+  },
+  {
+    "sentiment": "negative",
+    "key_issues": [
+      "general performance",
+      "general performance"
+    ],
+    "summary": "The review is negative with main issues about general performance."
+  }
+]

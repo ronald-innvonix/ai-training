@@ -1,0 +1,98 @@
+[
+  {
+    "provider": "ChatGroq",
+    "model": "openai/gpt-oss-20b",
+    "method": "invoke",
+    "total_latency_s": 0.7129108139924938,
+    "first_token_latency_s": null,
+    "output_length_chars": 227
+  },
+  {
+    "provider": "ChatGroq",
+    "model": "openai/gpt-oss-20b",
+    "method": "stream",
+    "total_latency_s": 0.5474861069960753,
+    "first_token_latency_s": 0.3202752910001436,
+    "output_length_chars": 228
+  },
+  {
+    "provider": "ChatGroq",
+    "model": "openai/gpt-oss-20b",
+    "method": "ainvoke",
+    "total_latency_s": 0.6492894209950464,
+    "first_token_latency_s": null,
+    "output_length_chars": 240
+  },
+  {
+    "provider": "ChatGroq",
+    "model": "openai/gpt-oss-20b",
+    "method": "astream",
+    "total_latency_s": 0.5737802610092331,
+    "first_token_latency_s": 0.3421267650119262,
+    "output_length_chars": 229
+  },
+  {
+    "provider": "ChatMistralAI",
+    "model": "mistral-large-latest",
+    "method": "invoke",
+    "total_latency_s": 1.6857025799981784,
+    "first_token_latency_s": null,
+    "output_length_chars": 283
+  },
+  {
+    "provider": "ChatMistralAI",
+    "model": "mistral-large-latest",
+    "method": "stream",
+    "total_latency_s": 1.4201402670005336,
+    "first_token_latency_s": 0.4081910419918131,
+    "output_length_chars": 217
+  },
+  {
+    "provider": "ChatMistralAI",
+    "model": "mistral-large-latest",
+    "method": "ainvoke",
+    "total_latency_s": 3.0747606459917733,
+    "first_token_latency_s": null,
+    "output_length_chars": 232
+  },
+  {
+    "provider": "ChatMistralAI",
+    "model": "mistral-large-latest",
+    "method": "astream",
+    "total_latency_s": 1.4406903860071907,
+    "first_token_latency_s": 0.40266515300027095,
+    "output_length_chars": 217
+  },
+  {
+    "provider": "ChatGoogleGenerativeAI",
+    "model": "gemini-3.6-flash",
+    "method": "invoke",
+    "total_latency_s": 5.629999473996577,
+    "first_token_latency_s": null,
+    "output_length_chars": 1
+  },
+  {
+    "provider": "ChatGoogleGenerativeAI",
+    "model": "gemini-3.6-flash",
+    "method": "stream",
+    "total_latency_s": 3.9243033649981953,
+    "first_token_latency_s": 3.8246121109987143,
+    "output_length_chars": 4
+  },
+  {
+    "provider": "ChatGoogleGenerativeAI",
+    "model": "gemini-3.6-flash",
+    "method": "ainvoke",
+    "total_latency_s": 5.511742301998311,
+    "first_token_latency_s": null,
+    "output_length_chars": 1
+  },
+  {
+    "provider": "ChatGoogleGenerativeAI",
+    "model": "gemini-3.6-flash",
+    "method": "astream",
+    "total_latency_s": 4.224185849991045,
+    "first_token_latency_s": 4.221681827999419,
+    "output_length_chars": 3
+  }
+]

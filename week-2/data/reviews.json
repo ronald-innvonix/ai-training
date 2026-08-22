@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "product": "DripForce Coffee Maker",
+    "rating": 5,
+    "text": "Bought this coffee maker last month and I genuinely love it. The brew is hot and consistent every single morning, the carafe is dishwasher safe, and setup took under five minutes. It has completely replaced my cafe habit."
+  },
+  {
+    "id": 2,
+    "product": "SonicAir Noise-Cancelling Headphones",
+    "rating": 2,
+    "text": "The noise cancellation is marketed as best-in-class but it barely blocks a bus ride. The companion app crashed on my phone every time I tried to change the EQ, and Bluetooth dropped out twice during a single meeting. For the price, I expected far more."
+  },
+  {
+    "id": 3,
+    "product": "CloudVault Online Storage",
+    "rating": 3,
+    "text": "Storage space is generous for the price and sync is fast on my laptop, but the mobile app is slow and the file preview is buggy. It does the job for backups but I would not trust it for anything urgent."
+  },
+  {
+    "id": 4,
+    "product": "TrailFox Running Shoes",
+    "rating": 4,
+    "text": "These shoes are light, stable on gravel, and the grip in wet conditions is superb. They run a half size small so I sized up, and after a few weeks the sole is still in great shape. Highly recommend for trail runners."
+  },
+  {
+    "id": 5,
+    "product": "BiteBolt Food Delivery App",
+    "rating": 1,
+    "text": "Ordered a burger at 7pm, it arrived cold at 8:45pm and the order was missing the fries. Customer support ghosted me for two days and then offered a partial refund only after I left a review. Never ordering again."
+  },
+  {
+    "id": 6,
+    "product": "HomeNest Smart Hub",
+    "rating": 4,
+    "text": "Linking my lights, thermostat, and camera was mostly smooth, and the voice assistant responds quickly. The hub occasionally loses the Wi-Fi in the morning and needs a reboot, but when it works it integrates everything nicely."
+  },
+  {
+    "id": 7,
+    "product": "PlanPad Project Management SaaS",
+    "rating": 3,
+    "text": "The board view is clean and the reports are useful for weekly standups. However, there is no native desktop app, multi-select just got enabled, and notifications arrive hours late. Solid for small teams, frustrating at scale."
+  },
+  {
+    "id": 8,
+    "product": "GlowEase Electric Toothbrush",
+    "rating": 2,
+    "text": "The vibrations are strong and the brush head is comfortable, but the battery lasts only about three days instead of the promised two weeks. The charging base stopped charging after a month and I had to buy a replacement."
+  },
+  {
+    "id": 9,
+    "product": "FarmFresh Meal Kit Subscription",
+    "rating": 5,
+    "text": "Every box arrives refrigerated and perfectly portioned, recipes are easy to follow, and the meals actually taste great. We cancelled a subscription we had to another service just to stick with these. Worth every penny."
+  },
+  {
+    "id": 10,
+    "product": "ShieldTunnel VPN Service",
+    "rating": 2,
+    "text": "The speeds are decent on nearby servers, but the app frequently disconnects when switching networks and the privacy policy is vague. For a service that exists to protect privacy, the unclear data logging makes me skeptical."
+  }
+]
