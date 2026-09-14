@@ -1,0 +1,22 @@
+[project]
+name = "week_5_tool_agent"
+version = "0.1.0"
+description = "Week 5 LangChain: Tools, Tool Calling & ReAct Agents"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.dependencies]
+langchain = "*"
+langchain-community = "*"
+langchain-openai = "*"
+langchain-groq = "*"
+langchain-mistralai = "*"
+langgraph = "*"
+yfinance = "*"
+requests = "*"
+duckduckgo-search = "*"
+python-dotenv = "*"
+
+[tool]
+# Fill tooling config here if you want (optional)

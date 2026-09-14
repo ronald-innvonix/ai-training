@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-openai
+langchain-groq
+langchain-mistralai
+langgraph
+yfinance
+requests
+duckduckgo-search
+python-dotenv
