@@ -11,7 +11,10 @@ dependencies = [
     "langchain>=1.4.1",
     "jupyterlab",
     "notebook",
-    "dotenv"
+    "dotenv",
+    "python-dotenv>=1.0.1",
+    "mcp-server-fetch>=2025.1.14",
+    "subprocess"
 
 ]
 

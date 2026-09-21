@@ -1,0 +1,1 @@
+The page explains that example.com is a reserved domain intended for use in documentation and examples, and should not be used for real operations. It also provides a link to IANA for more information.
