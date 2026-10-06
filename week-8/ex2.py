@@ -160,15 +160,3 @@ def interactive_demo():
 if __name__ == "__main__":
     interactive_demo() if "interactive" in sys.argv else scripted_demo()
 
-
-# ---------------------------------------------------------------------------
-# TRY IT YOURSELF
-# ---------------------------------------------------------------------------
-# 1. Add `print("charging...")` BEFORE interrupt() in approval_gate and watch it
-#    print twice (once at pause, once at resume). That's the re-run gotcha.
-# 2. Only require approval when amount > 100: add a conditional edge after
-#    analyze_request that skips approval_gate for small amounts.
-# 3. Allow multiple interrupts in one node (e.g. ask for approval, then ask for
-#    a reason). Resume values are matched by order.
-# 4. Swap InMemorySaver for SqliteSaver (see Exercise 1) so approvals can happen
-#    hours later, from a different process — e.g. behind a web API.

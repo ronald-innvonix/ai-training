@@ -136,13 +136,3 @@ if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "memory"
     {"memory": demo_in_memory, "start": sqlite_start, "resume": sqlite_resume}[mode]()
 
-
-# ---------------------------------------------------------------------------
-# TRY IT YOURSELF
-# ---------------------------------------------------------------------------
-# 1. Change interrupt_before to ["process_data"]. What does `snap.next` show now?
-# 2. Make process_data raise an Exception on the first call. After the crash,
-#    call graph.invoke(None, config). Completed nodes are NOT re-run.
-# 3. Add `interrupt_after=["fetch_data"]` as well and resume twice.
-# 4. In Part B, run `start` twice. Why does the second run NOT start from scratch?
-#    (Hint: same thread_id + invoking with a new input.)
