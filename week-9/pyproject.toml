@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-employee-directory"
+version = "0.1.0"
+description = "Hands-on: FastMCP employee directory server + LangChain/Groq MCP client"
+requires-python = ">=3.10"
+dependencies = [
+    # Official MCP SDK. It already includes FastMCP (mcp.server.fastmcp),
+    # so we do NOT install the separate "fastmcp" package (it caused version clashes).
+    "mcp>=1.10,<2",
+    "langchain-groq>=0.3",            
+    "langchain-mcp-adapters>=0.1.9",  
+    "langgraph>=0.2",                 
+    "python-dotenv>=1.0",         
+]
+
+[tool.setuptools]
+# Flat layout: tell setuptools which top-level modules belong to this project
+py-modules = ["data", "server", "client"]
